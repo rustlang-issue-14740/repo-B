@@ -4,4 +4,4 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-repo-A = { git = "https://github.com/rustlang-issue-14740/repo-A", features = [ "add" ] }
+repo-A = { git = "https://github.com/rustlang-issue-14740/repo-A", branch = "main", features = [ "add" ] }
