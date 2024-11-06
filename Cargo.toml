@@ -3,5 +3,8 @@ name = "repo-B"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+proc-macro = true
+
 [dependencies]
 repo-A = { git = "https://github.com/rustlang-issue-14740/repo-A", branch = "main", features = [ "add" ] }
